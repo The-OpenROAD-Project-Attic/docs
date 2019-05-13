@@ -5,7 +5,12 @@ stages:
 build:
   stage: build
   script:
+    - virtualenv .venv
+    - source .venv/bin/activate
+    - pip install sphinx
+    - pip install sphinxcontrib.youtube
     - make html
+    - rm -r .venv
   tags:
     - openroad
     - flow
