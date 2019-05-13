@@ -10,7 +10,6 @@ build:
     - pip install sphinx
     - pip install sphinxcontrib.youtube
     - make html
-    - rm -r .venv
   tags:
     - openroad
     - flow
