@@ -1,8 +1,8 @@
 stages:
-  - build
+  - docs-build-publish
 
 build:
-  stage: build
+  stage: docs-build-publish
   script:
     - virtualenv .venv
     - source .venv/bin/activate
@@ -13,4 +13,3 @@ build:
   environment:
     name: docs
     url: https://docs.theopenroadproject.org
-    
