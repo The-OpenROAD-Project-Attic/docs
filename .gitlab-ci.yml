@@ -1,0 +1,24 @@
+stages:
+  - build
+  - publish
+
+build:
+  stage: build
+  script:
+    - make html
+  tags:
+    - openroad
+    - flow
+    - docs
+
+publish:
+  stage: publish
+  script:
+    - cp -r build/* /var/www/html/docs
+  tags:
+    - openroad
+    - flow
+    - docs
+  environment:
+    name: docs
+    url: https://docs.theopenroadproject.org
