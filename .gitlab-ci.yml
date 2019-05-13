@@ -1,6 +1,5 @@
 stages:
   - build
-  - publish
 
 build:
   stage: build
@@ -10,19 +9,7 @@ build:
     - pip install sphinx
     - pip install sphinxcontrib.youtube
     - make html
-  tags:
-    - openroad
-    - flow
-    - docs
-
-publish:
-  stage: publish
-  script:
     - cp -r build/* /var/www/html/docs
-  tags:
-    - openroad
-    - flow
-    - docs
   environment:
     name: docs
     url: https://docs.theopenroadproject.org
