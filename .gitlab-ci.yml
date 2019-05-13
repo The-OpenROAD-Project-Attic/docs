@@ -9,6 +9,7 @@ build:
     - pip install sphinx
     - pip install sphinxcontrib.youtube
     - make html
+    - cp -r build/* /var/www/html/docs
   tags:
     - openroad
     - flow
