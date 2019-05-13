@@ -1,15 +1,18 @@
 stages:
-  - docs-build-publish
+  - build
 
 build:
-  stage: docs-build-publish
+  stage: build
   script:
     - virtualenv .venv
     - source .venv/bin/activate
     - pip install sphinx
     - pip install sphinxcontrib.youtube
     - make html
-    - cp -r build/* /var/www/html/docs
+  tags:
+    - openroad
+    - flow
+    - docs
   environment:
     name: docs
     url: https://docs.theopenroadproject.org
