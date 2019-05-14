@@ -24,7 +24,7 @@ Contents
 
 Questions & Support
 ====================
-Contact Abdelrahman (Main Contributor) at abdelrahman+openroad@brown.edu
+Contact Abdelrahman Hosny at abdelrahman_hosny@brown.edu
 
 
 
