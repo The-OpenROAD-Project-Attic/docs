@@ -19,10 +19,9 @@ Contents
    :maxdepth: 3
 
    getting-started
-   flow-definition
-   running-on-your-own-design
-   private-cloud
-   developer-guide
+   tools
+   cloud-flow
+   contribution-guide
 
 Questions & Support
 ====================

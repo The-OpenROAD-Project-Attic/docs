@@ -1,12 +1,15 @@
 Getting Started
 ===============
 
-To get started using the cloud platform, watch our 3-minute video from the main contributor. It walks you through
-core features of the platform, with an example on a RISCV design.
+This section provides a user guide into using OpenROAD tools and the automated flow.
 
-**Platform Link:** https://flow.theopenroadproject.org
 
-..  youtube:: 4WR-QgdsluA
-    :width: 100%
+Using Pre-built Binaries
+-------------------------
 
-In addition to the video, you can directory jump to the web application and follow the step-by-step onboarding guide.
+To be completed
+
+Build On Your Machine
+----------------------
+
+To be completed
