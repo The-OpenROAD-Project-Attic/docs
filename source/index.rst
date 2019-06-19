@@ -23,9 +23,9 @@ Contents
    cloud-flow
    contribution-guide
 
-Questions & Support
-====================
-Contact Abdelrahman Hosny at abdelrahman_hosny@brown.edu
+Project Questions
+==================
+Contact Prof. Andrew B. Kahng at abk-openroad@eng.ucsd.edu
 
 
 

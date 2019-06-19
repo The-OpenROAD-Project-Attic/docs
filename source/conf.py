@@ -19,8 +19,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'OpenROAD Flow'
-copyright = '2018, OpenROAD'
+project = 'The OpenROAD Project'
+copyright = '2019, OpenROAD'
 author = 'OpenROAD'
 
 # The short X.Y version
@@ -134,7 +134,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OpenROADFlow.tex', 'OpenROAD Flow Documentation',
+    (master_doc, 'OpenROADFlow.tex', 'The OpenROAD Project',
      'Abdelrahman', 'manual'),
 ]
 
@@ -144,7 +144,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'openroadflow', 'OpenROAD Flow Documentation',
+    (master_doc, 'openroadflow', 'The OpenROAD Project',
      [author], 1)
 ]
 
@@ -155,8 +155,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OpenROADFlow', 'OpenROAD Flow Documentation',
-     author, 'OpenROADFlow', 'One line description of project.',
+    (master_doc, 'OpenROADFlow', 'The OpenROAD Project',
+     author, 'OpenROADFlow', 'OpenROAD seeks to develop and foster an autonomous, 24-hour, open-source layout generation flow (RTL-to-GDS).',
      'Miscellaneous'),
 ]
 
