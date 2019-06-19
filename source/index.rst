@@ -3,12 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to OpenROAD Flow's documentation!
-=========================================
+The OpenROAD Project Documentation
+===================================
 
 `The OpenROAD Project`_ aims at providing a 24-hour, no-human-in-the-loop layout design for SoC,
 package and PCB with no Power-Performance-Area (PPA) loss.
-The cloud infrastructure set up at `OpenROAD Flow`_ makes the tools and designs accessible through an easy-to-use web-based interface.
+
+This page contains all related documentation for the different tools being developed under OpenROAD, 
+in addition to RTL-to- GDS flow automation.
 
 Contents
 ========
