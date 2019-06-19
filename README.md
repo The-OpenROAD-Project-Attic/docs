@@ -11,4 +11,4 @@ The source files that empower [https://docs.theopenroadproject.org](https://docs
 6. Push to your own fork and then submit a pull request to this repo.
 
 ## Questions & Feedback 
-Contact Abdelrahman Hosny (abdelrahman+openroad@brown.edu)
+Contact Abdelrahman Hosny (abdelrahman_hosny@brown.edu)
